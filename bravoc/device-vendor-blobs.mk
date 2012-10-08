@@ -25,8 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/AudioBTID.csv:system/etc/AudioBTID.csv \
     vendor/htc/bravoc/proprietary/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     vendor/htc/bravoc/proprietary/default.acdb:system/etc/firmware/default.acdb \
-    vendor/htc/bravoc/proprietary/default_france.acdb:system/etc/firmware/default_france.acdb \
-    vendor/htc/bravoc/proprietary/default_nel.acdb:system/etc/firmware/default_nel.acdb \
+    vendor/htc/bravoc/proprietary/default_mos.acdb:system/etc/firmware/default_mos.acdb \
     vendor/htc/bravoc/proprietary/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/bravoc/proprietary/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/bravoc/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
