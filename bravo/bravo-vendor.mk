@@ -14,13 +14,13 @@
 
 ## Firmware files
 PRODUCT_COPY_FILES += \
-    vendor/htc/bravo/prebuilt/firmware/default.acdb:system/etc/firmware/default.acdb \
-    vendor/htc/bravo/prebuilt/firmware/default_france.acdb:system/etc/firmware/default_france.acdb \
-    vendor/htc/bravo/prebuilt/firmware/default_nel.acdb:system/etc/firmware/default_nel.acdb
+    vendor/htc/bravo/proprietary/firmware/default.acdb:system/etc/firmware/default.acdb \
+    vendor/htc/bravo/proprietary/firmware/default_france.acdb:system/etc/firmware/default_france.acdb \
+    vendor/htc/bravo/proprietary/firmware/default_nel.acdb:system/etc/firmware/default_nel.acdb
 
 ## GPS libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/bravo/prebuilt/gps/gps.bravo.so:system/lib/gps.bravo.so
+    vendor/htc/bravo/proprietary/gps/gps.bravo.so:system/lib/gps.bravo.so
 
 ## RIL libraries and files
 PRODUCT_COPY_FILES += \
