@@ -26,15 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/common-qsd8k/proprietary/adreno/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/htc/common-qsd8k/proprietary/adreno/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/htc/common-qsd8k/proprietary/adreno/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    vendor/htc/common-qsd8k/proprietary/adreno/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/htc/common-qsd8k/proprietary/adreno/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/common-qsd8k/proprietary/adreno/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/htc/common-qsd8k/proprietary/adreno/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/htc/common-qsd8k/proprietary/adreno/egl/egl.cfg:system/lib/egl/egl.cfg
-
-## Use this to enable SW rendering but be sure to comment out egl.cfg above
-#PRODUCT_COPY_FILES += \
-#    vendor/htc/common-qsd8k/proprietary/adreno/egl/eglsw.cfg:system/lib/egl/egl.cfg \
-#    vendor/htc/common-qsd8k/proprietary/adreno/egl/libGLES_android.so:system/lib/egl/libGLES_android.so
+    vendor/htc/common-qsd8k/proprietary/adreno/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
 
 ## Bluetooth files
 PRODUCT_COPY_FILES += \
@@ -53,5 +48,5 @@ PRODUCT_COPY_FILES += \
 
 ## Video libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/common-qsd8k/proprietary/video/libOmxVidEnc.so:system/lib/libOmxVidEnc.so #/
+    vendor/htc/common-qsd8k/proprietary/video/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
 #    vendor/htc/common-qsd8k/proprietary/video/libOmxVdec.so:system/lib/libOmxVdec.so
