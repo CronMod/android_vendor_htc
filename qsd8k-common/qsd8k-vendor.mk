@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
 ## Firmware files
 PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
-    vendor/htc/qsd8k-common/proprietary/firmware/yamato_pfp.fw:system/etc/yamato_pfp.fw \
+    vendor/htc/qsd8k-common/proprietary/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/qsd8k-common/proprietary/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
 ## Video libraries
