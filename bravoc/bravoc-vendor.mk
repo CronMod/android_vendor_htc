@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
 
 ## GPS libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/bravoc/proprietary/gps/gps.bravoc.so:system/lib/gps.bravoc.so
+    vendor/htc/bravoc/proprietary/gps/gps.bravoc.so:system/lib/hw/gps.bravoc.so
 
 ## RIL libraries and files
 PRODUCT_COPY_FILES += \

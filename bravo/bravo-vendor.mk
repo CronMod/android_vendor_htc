@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 
 ## GPS libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/bravo/proprietary/gps/gps.bravo.so:system/lib/gps.bravo.so
+    vendor/htc/bravo/proprietary/gps/gps.bravo.so:system/lib/hw/gps.bravo.so
 
 ## RIL libraries and files
 PRODUCT_COPY_FILES += \
