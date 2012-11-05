@@ -20,15 +20,16 @@ PRODUCT_COPY_FILES += \
 ## Adreno libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/adreno/libC2D2.so:system/lib/libC2D2.so \
+    vendor/htc/qsd8k-common/proprietary/adreno/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/htc/qsd8k-common/proprietary/adreno/libgsl.so:system/lib/libgsl.so \
     vendor/htc/qsd8k-common/proprietary/adreno/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/htc/qsd8k-common/proprietary/adreno/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/htc/qsd8k-common/proprietary/adreno/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
+    vendor/htc/qsd8k-common/proprietary/adreno/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
     vendor/htc/qsd8k-common/proprietary/adreno/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
 
 ## Bluetooth files
@@ -46,7 +47,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
     vendor/htc/qsd8k-common/proprietary/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
 
+## Media libraries
+PRODUCT_COPY_FILES += \
+    vendor/htc/qsd8k-common/proprietary/media/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/htc/qsd8k-common/proprietary/media/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/htc/qsd8k-common/proprietary/media/libwvm.so:system/vendor/lib/libwvm.so
+
 ## Video libraries
 PRODUCT_COPY_FILES += \
-    vendor/htc/qsd8k-common/proprietary/video/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
-#    vendor/htc/qsd8k-common/proprietary/video/libOmxVdec.so:system/lib/libOmxVdec.so
+    vendor/htc/qsd8k-common/proprietary/video/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/htc/qsd8k-common/proprietary/video/libOmxVdec.so:system/lib/libOmxVdec.so
