@@ -17,10 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/firmware/default.acdb:system/etc/firmware/default.acdb \
     vendor/htc/bravoc/proprietary/firmware/default_mos.acdb:system/etc/firmware/default_mos.acdb
 
-## GPS libraries
-PRODUCT_COPY_FILES += \
-    vendor/htc/bravoc/proprietary/gps/gps.bravoc.so:system/lib/hw/gps.bravoc.so
-
 ## RIL libraries and files
 PRODUCT_COPY_FILES += \
     vendor/htc/bravoc/proprietary/ril/akmd:system/bin/akmd \
