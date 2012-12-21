@@ -14,8 +14,7 @@
 
 ## Files needed for building camera.qsd8k
 PRODUCT_COPY_FILES += \
-    vendor/htc/qsd8k-common/proprietary/camera/libcamera.so:obj/lib/libcamera.so \
-    vendor/htc/qsd8k-common/proprietary/camera/liboemcamera.so:obj/lib/liboemcamera.so 
+    vendor/htc/qsd8k-common/proprietary/camera/libcamera.so:obj/lib/libcamera.so
 
 ## Adreno libraries
 PRODUCT_COPY_FILES += \
@@ -49,4 +48,3 @@ PRODUCT_COPY_FILES += \
 ## Video libraries
 PRODUCT_COPY_FILES += \
     vendor/htc/qsd8k-common/proprietary/video/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
-#    vendor/htc/qsd8k-common/proprietary/video/libOmxVdec.so:system/lib/libOmxVdec.so
